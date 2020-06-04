@@ -6,8 +6,8 @@ class Search(models.Model):
     title = models.CharField(max_length=255)
     address = models.CharField(max_length=512)
     price = models.CharField(max_length=225)
-    beds = models.IntegerField(max_length=3)
-    bath = models.IntegerField(max_length=3)
+    beds = models.CharField(max_length=3)
+    bath = models.CharField(max_length=3)
     link = models.CharField(max_length=2048)
     created_at = models.DateTimeField(auto_now=True)
 
