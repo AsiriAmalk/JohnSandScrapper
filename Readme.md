@@ -14,10 +14,6 @@ source johnscrapper/bin/activate
 ### Install Requirements
 pip install -r requirements.txt
 
-### Open Django
-python manage.py runserver
-
-###### Go to `http://127.0.0.1:8000/`
 
 ### Admin Panal
 python manage.py makemigrations\
@@ -27,3 +23,7 @@ python manage.py createsuperuser
 
 ### DataBase used `Sqlite3`
 
+### Open Django
+python manage.py runserver
+
+###### Go to `http://127.0.0.1:8000/`
