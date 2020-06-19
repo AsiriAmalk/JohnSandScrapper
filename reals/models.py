@@ -9,6 +9,7 @@ class Search(models.Model):
     beds = models.CharField(max_length=3)
     bath = models.CharField(max_length=3)
     link = models.CharField(max_length=2048)
+    priority = models.BooleanField(default=False)
     created_at = models.DateTimeField(auto_now=True)
 
     # def __str__(self):

@@ -1,0 +1,1 @@
+web: gunicorn johhn_sand_scrapper.wsgi

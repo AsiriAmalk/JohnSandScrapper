@@ -65,6 +65,7 @@ def get_card_list_for_site(site):
 def home(request):
     if request.GET.get("delete_db") == "delete_db":
         Search.objects.all().delete()
+        Search.objects.get()
 
     if request.GET.get("start") == "start":
         # print("hello")

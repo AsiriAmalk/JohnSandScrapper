@@ -9,3 +9,15 @@
 
 /.idea
 #/.gitignore
+reals/__pycache__/admin.cpython-37.pyc
+
+__pycache__/
+reals/migrations/0005_search_priority.py
+reals/migrations/0006_auto_20200609_2022.py
+reals/migrations/__pycache__/0005_search_priority.cpython-37.pyc
+reals/migrations/__pycache__/0006_auto_20200609_2022.cpython-37.pyc
+reals/__pycache__/views.cpython-37.pyc
+
+
+reals/__pycache__
+johnsandenv/
