@@ -1,1 +1,1 @@
-web: gunicorn johhn_sand_scrapper.wsgi
+web: gunicorn johnsand.wsgi
